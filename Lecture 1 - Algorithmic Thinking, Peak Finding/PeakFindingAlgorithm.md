@@ -27,7 +27,7 @@
       
 #### Getting the Asymptotic Complexity of this algorithm down with divide and conquer strategy.
 
-    ###### Binary Search Algorithm:
+        Binary Search Algorithm:
         
           STEP ONE: Look at the middle part and then look at the left and right in the array
           
