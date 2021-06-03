@@ -53,3 +53,37 @@
 NOTE: 
     For an input of 10 million difference between O(n) and O(log(n)) is a difference of 13 seconds vs 0.001 seconds.
           
+
+### Two Dimensional Peak Finding:
+
+    - We have a matrix of a 2-dimensional array with n rows and n columns.
+                            
+                            C
+                          B A D
+                            E
+    
+    - In this case:
+            'A' is a peak only if : A >= B, A>= D, A >= C, A>= E
+    
+    - In this case - We choose Greedy Descent Algorithms
+    
+            > Tries to find a direction and follow that direction to find a peak
+            > Will have O(nm) complexty - n (# of rows) and m (# of columns)
+            
+
+#### Algorithm:
+
+    STEP ONE: mid = m/2 - Pick a middle column
+    
+    STEP TWO: Find a global max in column j at (i, j)
+    
+            > Compare (i, j-1), (i, j), (i, j+1)
+            
+             > IF  (i, j-1) > (i, j)
+                    # Take the left columns
+             > Else If (i, j+1) > (i, j)
+                    # Take the right columns
+             > Else this is the peak
+    
+    Asymptotic Complexity: O(nlogm)
+            
