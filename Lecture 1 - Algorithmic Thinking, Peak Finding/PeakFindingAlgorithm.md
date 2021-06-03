@@ -86,4 +86,11 @@ NOTE:
              > Else this is the peak
     
     Asymptotic Complexity: O(nlogm)
+    
+        Finding Global Maximum for each column - O(n)
+            Binary Search to get the Row Position - O(logm)
+        
+        Since this has to be repeated until we get our position:
+        
+        Total Time Complexity - O(nlogm)
             
