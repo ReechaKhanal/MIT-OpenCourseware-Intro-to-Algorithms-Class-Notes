@@ -1,33 +1,39 @@
 ## Algorithmic Thinking, Peak Finding:
 
 Algorithms differ from each other in their complexity:
-    - Different run times for different algorithms based on:
+
+    Different run times for different algorithms based on:
           1. Input Size
           2. Efficieny of the algorithm
 
-#### What is Asymptotic Complexity ?
+#### What is Asymptotic Complexity:
 
-  The limiting behavior of the execution time of an algorithm when the size of the problem goes to infinity.
-  This is usually denoted using the Big-O notation.
+    The limiting behavior of the execution time of an algorithm when the size of the problem goes to infinity.
+    This is usually denoted using the Big-O notation.
   
-  There are Asymptotic Time Complexity and Asymptotic Space Complexity.
+    There are Asymptotic Time Complexity and Asymptotic Space Complexity.
   
-  Concept here is: assuming that we have a large input - we say - one algorithm is faster than the other one.
+    Concept here is: assuming that we have a large input - we say - one algorithm is faster than the other one.
   
-#### What role does Efficiency of an algorithm play ?
+#### What role does Efficiency of an algorithm play:
 
-   Eventhough we have the technological capacity to deal with huge inputs today. Efficiency is still of paramount concern. 
+    Eventhough we have the technological capacity to deal with huge inputs today. Efficiency is still of paramount concern. 
    
-   This is because when things get to cubic complexity, it gets difficult, even for modern day computers, so efficiency comes into play.
+    This is because when things get to cubic complexity, it gets difficult, even for modern day computers, so efficiency comes into play.
     
-   Larger the input size - higher concern efficiency becomes.
+    Larger the input size - higher concern efficiency becomes.
    
 
-#### What are we concerned about ?
+#### What are we concerned about:
 
-   - Efficient procedures for solving large scale problems.
-   - Scalability: We want to be able to track how our algorithms are going to do as inputs grow larger and larger.
-   
+    - Efficient procedures for solving large scale problems.
+    - Scalability: We want to be able to track how our algorithms are going to do as inputs grow larger and larger.
+
+Note: What we want is efficient procedure to solve problems on large input.
+      Example: 
+            US Highway System,
+            Human Genome
+
 #### Class Data Structures:
     
     1. BST
