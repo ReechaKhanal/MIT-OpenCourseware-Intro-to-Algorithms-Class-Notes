@@ -56,7 +56,7 @@ A Pointer Machine is actually weaker than the Random-Access Machine because you 
              - In python, lists are built with a counter built-in which is maintained as we move on with the lists
     - L.sort() - sort a list - O(NlogN)
  
-##### Python List:
+##### Python Dictionary:
 
     - D[key] = value - O(1) constant time - with high probability
     - Key in dictionary - Constant time
