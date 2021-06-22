@@ -4,7 +4,7 @@
   
   IDEA:
   
-       Insert A\[i] into the sorted array - where you have sorted A\[0:i-1]
+       Insert A[i] into the sorted array - where you have sorted A\[0:i-1]
        And this will be done by pairwise swaps done to the correct position.
   
   
