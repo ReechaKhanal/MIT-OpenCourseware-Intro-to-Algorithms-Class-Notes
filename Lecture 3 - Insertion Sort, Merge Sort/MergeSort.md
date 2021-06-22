@@ -29,5 +29,32 @@ Note:
           Complexity: O(nlogn)
           
 
- ![](image.png)
-With Cn amount of work at every level hence a total of O(logn) - amount of "work" the algorithm does at every single level
+![](image.png)
+
+With Cn amount of work at every level hence a total of O(logn) - amount of "work" the algorithm does at every single level.
+
+
+One advantage of insertion sort over merge sort:
+
+      Insertion Sort - in-place
+      
+      Merge Sort - NOT in-place, needs extra space.
+      
+
+In-Place Merge Sort:
+      
+      - kind of  impractical
+      - running time of an in-place merge sort is much worse than the regular merge sort that uses n auxiliary space.
+      
+
+Extra Notes:
+
+       * C is much faster than python
+       * But once we get above an input size of 4,000 Merge Sort in python beats the insertion sort in C
+       * There are two versions of recursions:
+                  * All work being done at the root
+                  * All work being done at the leaves
+       
+
+These differences determine which one is the dominant part and what the complexity of the algorithm will be.
+
