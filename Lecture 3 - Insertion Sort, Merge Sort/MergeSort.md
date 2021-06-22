@@ -23,8 +23,11 @@
       
 Note:
 
-  In a recursion tree like this:
+      In a recursion tree like this:
           Number of depth - 1 + log(n)
           Number of leaves - n
           Complexity: O(nlogn)
-    
+          
+
+ ![](image.png)
+With Cn amount of work at every level hence a total of O(logn) - amount of "work" the algorithm does at every single level
